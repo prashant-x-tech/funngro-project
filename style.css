@@ -1,0 +1,97 @@
+/* ===== Base Reset ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===== Global Styles ===== */
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #f4f6fb;
+    color: #333;
+    line-height: 1.6;
+    padding: 40px 20px;
+}
+
+/* ===== Layout Container ===== */
+.container {
+    max-width: 900px;
+    margin: auto;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+/* ===== Headings ===== */
+h1 {
+    font-size: 36px;
+    color: #1f2937;
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #374151;
+}
+
+/* ===== Text ===== */
+p {
+    font-size: 17px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+/* ===== Lists ===== */
+ul, ol {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* ===== Buttons / Links ===== */
+a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 22px;
+    background: #4f46e5;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: background 0.3s ease;
+}
+
+a:hover {
+    background: #3730a3;
+}
+
+/* ===== Teen Page Special Style ===== */
+body.teen h1 {
+    color: #059669;
+}
+
+body.teen a {
+    background: #16a34a;
+}
+
+body.teen a:hover {
+    background: #15803d;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    .container {
+        padding: 25px;
+    }
+}
+
